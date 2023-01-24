@@ -1,4 +1,4 @@
-robot extract --method TOP \
+robot extract --method MIREOT \
     --input ncbitaxon.owl \
     --term-file terms_2_select.txt \
     --output results/pheno-repo_taxa.owl
