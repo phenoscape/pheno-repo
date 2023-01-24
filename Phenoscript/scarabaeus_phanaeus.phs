@@ -1,0 +1,59 @@
+OTU={ #species Scarabaeus sacer
+
+  OTU_DATA={
+    TU:tu_scarabaeus_sacer['rdfs:label'='Scarabaeus sacer']
+    .denotes adult_organism:scarabaeus_sacer['to_Ophu_List'='has_phenotype', 'rdfs:label'='org_Scarabaeus_sacer'];
+    }
+
+  OPHU_LIST={
+    adult_organism:scarabaeus_sacer >> length .is_quality_measured_as measurement_unit:sacer_measure1 .has_measurement_unit_label millimeter;
+      measurement_unit:sacer_measure1 .has_measurement_value 40;
+    adult_organism:scarabaeus_sacer > head >> black;
+    adult_organism:scarabaeus_sacer > pronotum:pronotum_sacer > cuticular_puncture:sacer_puncture1 >> circular;
+    pronotum:pronotum_sacer >> interpunctural_distance .is_quality_measured_as measurement_unit:sacer_measure2
+    .has_measurement_unit_label diameter << cuticular_puncture:sacer_puncture1;
+      measurement_unit:sacer_measure2 .has_measurement_value 1.5;
+    adult_organism:scarabaeus_sacer > cuticle_of_protibia > cuticular_protrusion >> sharp;
+    }
+
+}
+
+OTU={ #species Scarabaeus radama
+
+  OTU_DATA={
+    TU:tu_scarabaeus_radama['rdfs:label'='Scarabaeus radama']
+    .denotes adult_organism:scarabaeus_radama['to_Ophu_List'='has_phenotype', 'rdfs:label'='org_Scarabaeus_radama'];
+    }
+
+  OPHU_LIST={
+    adult_organism:scarabaeus_radama >> length .is_quality_measured_as measurement_unit:radama_measure1 .has_measurement_unit_label millimeter;
+      measurement_unit:radama_measure1 .has_measurement_value 35;
+    adult_organism:scarabaeus_radama > head >> bronze;
+    adult_organism:scarabaeus_radama > pronotum:pronotum_radama > cuticular_puncture:radama_puncture1 >> circular;
+    pronotum:pronotum_radama >> interpunctural_distance .is_quality_measured_as measurement_unit:radama_measure2
+    .has_measurement_unit_label diameter << cuticular_puncture:radama_puncture1;
+      measurement_unit:radama_measure2 .has_measurement_value 0.5;
+    adult_organism:scarabaeus_radama > cuticle_of_protibia > ventral_margin !> cuticular_protrusion;
+    }
+}
+
+OTU={ #species Phanaeus haroldi
+
+  OTU_DATA={
+    TU:tu_phanaeus_haroldi['rdfs:label'='Phanaeus haroldi']
+    .denotes adult_organism:phanaeus_haroldi['to_Ophu_List'='has_phenotype', 'rdfs:label'='org_Phanaeus_haroldi'];
+    }
+
+  OPHU_LIST={
+    adult_organism:phanaeus_haroldi >> length .is_quality_measured_as measurement_unit:haroldi_measure1 .has_measurement_unit_label millimeter;
+      measurement_unit:haroldi_measure1 .has_measurement_value 30;
+    adult_organism:phanaeus_haroldi > head >> blue;
+    adult_organism:phanaeus_haroldi > pronotum:pronotum_haroldi > cuticular_puncture:haroldi_puncture1 >> circular;
+    pronotum:pronotum_haroldi >> interpunctural_distance .is_quality_measured_as measurement_unit:haroldi_measure2
+    .has_measurement_unit_label diameter << cuticular_puncture:haroldi_puncture1;
+      measurement_unit:haroldi_measure2 .has_measurement_value 1.0;
+    pronotum:pronotum_haroldi > cuticular_protrusion |=| 2;
+    adult_organism:phanaeus_haroldi > cuticle_of_mesotibia:mesotibia_haroldi;
+    cuticle_of_mesotibia:mesotibia_haroldi > proximal_region >> width |<| width << distal_region < cuticle_of_mesotibia:mesotibia_haroldi;
+    }
+}
