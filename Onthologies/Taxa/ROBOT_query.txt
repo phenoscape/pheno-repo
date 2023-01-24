@@ -1,0 +1,4 @@
+robot extract --method TOP \
+    --input ncbitaxon.owl \
+    --term-file coleo_term.txt \
+    --output results/coleo_taxa.obo
