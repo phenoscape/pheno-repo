@@ -6,6 +6,7 @@ OTU={ #species Scarabaeus sacer
     }
 
   OPHU_LIST={
+    adult_organism:scarabaeus_sacer >> female;
     adult_organism:scarabaeus_sacer >> length .is_quality_measured_as measurement_unit:sacer_measure1 .has_measurement_unit_label millimeter;
       measurement_unit:sacer_measure1 .has_measurement_value 40;
     adult_organism:scarabaeus_sacer > head >> black;
@@ -13,9 +14,9 @@ OTU={ #species Scarabaeus sacer
     pronotum:pronotum_sacer >> interpunctural_distance .is_quality_measured_as measurement_unit:sacer_measure2
     .has_measurement_unit_label diameter << cuticular_puncture:sacer_puncture1;
       measurement_unit:sacer_measure2 .has_measurement_value 1.5;
-    adult_organism:scarabaeus_sacer > cuticle_of_protibia > cuticular_protrusion >> sharp;
+    adult_organism:scarabaeus_sacer > cuticle_of_protibia > cuticular_protrusion:sacer_cuticularprotrusion >> sharp;
+    cuticular_protrusion:sacer_cuticularprotrusion |=| 2;
     }
-
 }
 
 OTU={ #species Scarabaeus radama
@@ -36,6 +37,7 @@ OTU={ #species Scarabaeus radama
     adult_organism:scarabaeus_radama > cuticle_of_protibia > ventral_margin !> cuticular_protrusion;
     }
 }
+
 
 OTU={ #species Phanaeus haroldi
 
