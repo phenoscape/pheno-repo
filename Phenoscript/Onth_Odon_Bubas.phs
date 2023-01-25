@@ -1,0 +1,63 @@
+OTU_DATA={
+    TU:o_acuminatus['rdfs:label'='Onthophagus acuminatus']
+    .denotes male_organism:o_acuminatus['to_Ophu_List'='has_phenotype', 'rdfs:label'='org_Onthophagus_acuminatus'];
+    }
+
+OPHU_LIST={
+    adult_organism:o_acuminatus >> length .is_quality_measured_as measurement_unit:acuminatus_length1 .has_measurement_unit_label millimeter;
+      measurement_unit:acuminatus_length1 .has_measurement_value 8;
+    adult_organism:o_acuminatus > head_capsule:acuminatus_head >> black;
+    head_capsule:acuminatus_head > clypeus:acuminatus_clypeus > anterior_margin >> acuminate;
+    clypeus:acuminatus_clypeus !>> punctate;
+    head_capsule:acuminatus_head > central_region > puncture >> (decreased_size, superficial);
+    head_capsule:acuminatus_head > posterior_region > cuticular_protrusion >> (bilaterally_paired, straight);
+    adult_organism:o_acuminatus > pronotum:pronotum_acuminatus > anterior_region > cuticular_lobe >> (horizontal, curved);
+    adult_organism:o_acuminatus > cuticle_of_protibia > distal_margin > spur >> (acuminate, projected);
+    pronotum:pronotum_acuminatus >> width .has_increased_magnitude_relative_to width << cuticle_of_elytron < adult_organism:o_acuminatus;
+    }
+}
+
+OTU_DATA={
+  TU:odon_armiger['rdfs:label'='Odonteus armiger']
+  .denotes male_organism:odon_armiger['to_Ophu_List'='has_phenotype', 'rdfs:label'='org_Odonteus_armiger'];
+  }
+
+OPHU_LIST={
+    male_organism:odon_armiger >> length .is_quality_measured_as measurement_unit:armiger_length .has_measurement_unit_label millimeter;
+      measurement_unit:armiger_length .has_measurement_value 12;
+    male_organism:odon_armiger > dorsal_surface >> black;
+    male_organism:odon_armiger > seta >> yellow;
+    male_organism:odon_armiger > head_capsule:armiger_head >> black;
+    head_capsule:armiger_head > clypeus:armiger_clypeus >> curved;
+    head_capsule:armiger_head > gena:armiger_gena > distal_margin >> (curved);
+    gena:armiger_gena > distal_side .connected_to antero-lateral_region < postocciput;
+    head_capsule:armiger_head > central_region > cuticular_protrusion:armiger_horn > proximal_region > conjunctiva >> (flexible, mobile);
+    cuticular_protrusion:armiger_horn > proximal_region >> width .has_increased_magnitude_relative_to width << central_region < cuticular_protrusion:armiger_horn;
+    cuticular_protrusion:armiger_horn > distal_region >> width .has_increased_magnitude_relative_to width << central_region < cuticular_protrusion:armiger_horn;
+    cuticular_protrusion:armiger_horn > proximal_region >> curved;
+    head_capsule:odon_armiger > cranio_antennal_articulation .adjacent_to ventro-lateral_region < posterior_margin < clypeus:armiger_clypeus;
+    male_organism:odon_armiger > pronotum:armiger_pron > dorso-lateral_region > depression >> elliptic;
+    pronotum:armiger_pron > dorso-medial_region > depression:armiger_medial_depr >> elliptic;
+    depression:armiger_medial_depr > anterior_side > cuticular_protrusion >> (bilaterally_paired, triangular);
+    pronotum:armiger_pron > antero-lateral_region > cuticular_protrusion >> (bilaterally_paired, banana-shaped);
+    }
+}
+
+OTU_DATA={
+  TU:bison['rdfs:label'='Bubas bison']
+  .denotes male_organism:bison['to_Ophu_List'='has_phenotype', 'rdfs:label'='org_Bubas_bison'];
+  }
+
+  OPHU_LIST={
+      male_organism:bison >> length .is_quality_measured_as measurement_unit:bison_length .has_measurement_unit_label millimeter;
+        measurement_unit:bison_length .has_measurement_value 15;
+      male_organism:bison > dorsal_surface >> black;
+      male_organism:bison > body > ventral_side > seta >> yellow
+      male_organism:bison > head_capsule:bison_head > clypeus:bison_cly > anterior_margin >> (curved, raised);
+      head_capsule:bison_head > frontovertex > cuticular_protrusion:bison_horn >> (bilaterally_paired, laterally_compressed);
+      cuticular_protrusion:bison_horn > proximal_region .connected_to frontal_carina < head_capsule:bison_head;
+      pronotum:bison_pron > antero-medial_region > cuticular_protrusion:bison_pron_horn >> (conical, dorso-ventrally_flattened);
+      cuticular_protrusion:bison_pron_horn > distal_region >> emarginate;
+      pronotum:bison_pron > postero-medial_region > cuticolar_depression >> (elliptic, bilaterally_paired);
+      }
+  }
