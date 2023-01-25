@@ -39,6 +39,13 @@ RUN wget -nv https://github.com/balhoff/relation-graph/releases/download/v$RG_VE
 && tar -zxvf relation-graph-cli-$RG_VERSION.tgz \
 && mv relation-graph-cli-$RG_VERSION /tools/relation-graph
 
+###### materializer #####
+ENV MAT_VERSION=0.2.7
+ENV PATH "/tools/materializer/bin:$PATH"
+RUN wget -nv https://github.com/balhoff/materializer/releases/download/v$MAT_VERSION/materializer-$MAT_VERSION.tgz \
+&& tar -zxvf materializer-$MAT_VERSION.tgz \
+&& mv materializer-$MAT_VERSION /tools/materializer
+
 ###### jena #####
 ENV JENA_VERSION=4.7.0
 ENV PATH "/tools/apache-jena/bin:$PATH"
