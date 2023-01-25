@@ -1,0 +1,18 @@
+ID,Label,Type,Parent Class,has rank
+ID,A rdfs:label,TYPE,SC %,A http://purl.obolibrary.org/obo/ncbitaxon#has_rank
+http://purl.obolibrary.org/obo/NCBITaxon_166361,Onthophagus taurus,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_166335,Scarabaeus sacer,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_1889476,Agapostemon texanus,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_1955928,Chalepogenus caeruleus,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_1980241,Chalepogenus goeldianus,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_1955929,Chalepogenus herbsti,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_1980242,Chalepogenus muelleri,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_1980243,Chalepogenus parvus,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_1955930,Chalepogenus subcaeruleus,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_239131,Bombus vagans,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_2736700,Chalepogenus rozeni,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_27486,Evania appendigaster,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_506459,Phanaeus haroldi,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_931007,Scarabaeus radama,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_88590,Agapostemon,class,,http://purl.obolibrary.org/obo/NCBITaxon_genus
+obo:UO_0000016,millimeter,class,,

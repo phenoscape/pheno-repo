@@ -1,0 +1,1 @@
+robot merge --input Gryonoides_merged_ontologies.owl --input /Users/taravser/Documents/My_papers/pheno-repo/Onthologies/from_template/results/template.owl --output pheno-repo.owl

@@ -1,0 +1,64 @@
+
+## Jan 25, 2022, KC Seltmann
+# Phenoscape TraitFest Workshop as
+# Subgroup 4 & 5 trait repository Goal: Create a repository for various kinds of traits and make it work.
+# Members: Sergei Tarasov, Anahi Espindola, Isadora Fluck, István Mikó, Meghan Balk, Giulio Montanaro, Jim Balhoff, Paula Mabee, Jennifer C. Girón (part), Katja Seltmann
+
+
+##### Phenoscript syntax https://github.com/sergeitarasov/PhenoScript
+#
+# '>', 'has_part.'
+# '<', 'part_of.'
+# '>>', 'has_characteristic.'
+# '<<', 'inheres_in.'
+# '|>|' 'increased_in_magnitude_relative_to.'
+# '|<|' 'decreased_in_magnitude_relative_to.'
+# '|=|' 'has_count:'
+
+# This is a new PhenoScript Syntax
+# Changes:
+# 1. OTU, OTU_DATA, OPHU_LIST are all capitals
+# 2.  OTU, OTU_DATA, OPHU_LIST are ddefined by {}
+# 3. Personalozation (tagging) was with '@', now with ':''
+# 4. Edges (object properties) was 'edge.', now '.edge'
+# 5. Recommendations: Consider inserting a comment '# Gen. Sp.' after 'OTU =', for example 'OTU={ #G ryonoides_brasiliensis'.
+#       This will help finding errors when parsing file.
+
+
+
+OTU={ #Agapostemon texanus, UCSB-IZC00000646
+
+  OTU_DATA={
+    TU:UCSB-IZC00000646['to_Ophu_List'='has_phenotype', 'rdfs:label'='TU_Agapostemon texanus']
+    .denotes male_organism:A_texanus ['rdfs:label'='ORG_Agapostemon_texanus'];
+    TU:UCSB-IZC00000646 .denotes Agapostemon;
+  }
+
+  OPHU_LIST={
+  #has part some intertegular distance and has characteristics some length
+  #http://purl.obolibrary.org/obo/HAO_0002584
+  #should use HAO width HAO_0002375 because width is dependent entity in PATO
+    male_organism:A_texanus > mesosoma >> width .is_quality_measured_as measurement_datum:msrd1
+    .has_measurement_unit_label millimeter;
+    male_organism:A_texanus > measurement_datum:msrd1 .has_measurement_value 2;
+    #adult_organism:A_texanus;
+  }
+}
+
+OTU={ #Agapostemon texanus, UCSB-IZC00005600
+
+  OTU_DATA={
+    TU:UCSB-IZC00005600['to_Ophu_List'='has_phenotype', 'rdfs:label'='Agapostemon texanus']
+    .denotes female_organism:A_texanus ['rdfs:label'='Agapostemon_texanus'];
+    TU:UCSB-IZC00005600 .denotes Agapostemon;
+  }
+
+  OPHU_LIST={
+  #has part some intertegular distance and has characteristics some length
+  #http://purl.obolibrary.org/obo/HAO_0002584
+    female_organism:A_texanus1 > mesosoma >> width .is_quality_measured_as measurement_datum:msrd2
+    .has_measurement_unit_label millimeter;
+    female_organism:A_texanus1 > measurement_datum:msrd2 .has_measurement_value 1.6;
+    #adult_organism:A_texanus;
+  }
+}

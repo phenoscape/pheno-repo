@@ -1,0 +1,3 @@
+snips.r b output -u
+
+phs.py -onto /Users/taravser/Documents/My_papers/pheno-repo/Onthologies/pheno-repo.owl -phs bees.phs -o ./output -pre bees

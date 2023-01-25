@@ -1,0 +1,26 @@
+[PrefixDeclaration]
+:		http://www.semanticweb.org/istvanmiko/ontologies/2021/10/merged_ontologies_gryonoides/
+dc:		http://purl.org/dc/elements/1.1/
+go:		http://purl.obolibrary.org/obo/go#
+obo:		http://purl.obolibrary.org/obo/
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+bspo:		http://purl.obolibrary.org/obo/bspo#
+cito:		http://purl.org/spar/cito/
+foaf:		http://xmlns.com/foaf/0.1/
+obda:		https://w3id.org/obda/vocabulary#
+pato:		http://purl.obolibrary.org/obo/pato#
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+swrl:		http://www.w3.org/2003/11/swrl#
+swrla:		http://swrl.stanford.edu/ontologies/3.3/swrla.owl#
+swrlb:		http://www.w3.org/2003/11/swrlb#
+terms:		http://purl.org/dc/terms/
+protege:		http://protege.stanford.edu/plugins/owl/protege#
+subsets:		http://purl.obolibrary.org/obo/ro/subsets#
+oboInOwl:	http://www.geneontology.org/formats/oboInOwl#
+
+[MappingDeclaration] @collection [[
+]]
+

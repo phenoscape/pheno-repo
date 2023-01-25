@@ -1,0 +1,4 @@
+robot template --template template.csv \
+  --prefix "ex: http://example.com/" \
+  --ontology-iri "https://github.com/ontodev/robot/examples/template.owl" \
+  --output results/taxa.owl
