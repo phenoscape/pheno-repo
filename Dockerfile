@@ -10,6 +10,9 @@ ENV LANG en_US.utf8
 
 RUN DEBIAN_FRONTEND="noninteractive" apt-get update && apt-get install -y \
     wget \
+    curl \
+    make \
+    python3-pip \
     openjdk-17-jdk \
     openjdk-17-jre
 
@@ -20,6 +23,7 @@ RUN wget -nv https://github.com/ontodev/robot/releases/download/v$ROBOT_VERSION/
     wget -nv https://raw.githubusercontent.com/ontodev/robot/v$ROBOT_VERSION/bin/robot \
         -O /tools/robot && \
     chmod 755 /tools/robot
+ENV PATH "/tools:$PATH"
 
 ###### blazegraph-runner #####
 ENV BR_VERSION=1.7

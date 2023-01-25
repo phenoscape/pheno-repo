@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/aism/aism-base.owl
+http://purl.obolibrary.org/obo/colao/colao-base.owl
+http://purl.obolibrary.org/obo/ro.owl
+http://purl.obolibrary.org/obo/ncbitaxon.owl
