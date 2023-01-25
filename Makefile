@@ -1,3 +1,29 @@
+# ENV variables for Java tools:
+# ROBOT_JAVA_ARGS
+# JAVA_OPTS
+# JVM_ARGS
+
+ROBOT_ENV=ROBOT_JAVA_ARGS=-Xmx42G
+ROBOT=$(ROBOT_ENV) robot
+
+ONTOLOGY_LIST=ontologies.txt
+
+all: build/relation-graph.ttl
+
+build/mirror: $(ONTOLOGY_LIST)
+	mkdir -p $@ && cd $@ &&\
+	xargs -n 1 curl --retry 5 -L -O <../../ontologies.txt && cd ../..
+
+build/ontology.ttl: build/mirror
+	$(ROBOT) merge $(addprefix -i build/mirror/,$(shell ls build/mirror)) \
+	reason -r ELK -D debug.ofn -o $@
+
+
+
+build/relation-graph.ttl:
+	mkdir -p $@ && cd $@ &&\
+	relation-graph --version
+
 ################################################
 #### Commands for building the Docker image ####
 ################################################
