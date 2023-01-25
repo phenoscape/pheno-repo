@@ -29,9 +29,9 @@
 OTU={ #Agapostemon texanus, UCSB-IZC00000646
 
   OTU_DATA={
-    TU:UCSB-IZC00000646['to_Ophu_List'='has_phenotype', 'rdfs:label'='TU_Agapostemon texanus']
+    TU:UCSB-IZC00000646['to_Ophu_List'='has_phenotype', 'rdfs:label'='TU_Agapostemon texanus', 'catalogNumber'='UCSB-IZC00000646']
     .denotes male_organism:A_texanus ['rdfs:label'='ORG_Agapostemon_texanus'];
-    TU:UCSB-IZC00000646 .denotes Agapostemon;
+    TU:UCSB-IZC00000646 .denotes Agapostemon_texanus;
   }
 
   OPHU_LIST={
@@ -41,16 +41,15 @@ OTU={ #Agapostemon texanus, UCSB-IZC00000646
     male_organism:A_texanus > mesosoma >> width .is_quality_measured_as measurement_datum:msrd1
     .has_measurement_unit_label millimeter;
     male_organism:A_texanus > measurement_datum:msrd1 .has_measurement_value 2;
-    #adult_organism:A_texanus;
   }
 }
 
 OTU={ #Agapostemon texanus, UCSB-IZC00005600
 
   OTU_DATA={
-    TU:UCSB-IZC00005600['to_Ophu_List'='has_phenotype', 'rdfs:label'='Agapostemon texanus']
-    .denotes female_organism:A_texanus ['rdfs:label'='Agapostemon_texanus'];
-    TU:UCSB-IZC00005600 .denotes Agapostemon;
+    TU:UCSB-IZC00005600['to_Ophu_List'='has_phenotype', 'rdfs:label'='Agapostemon texanus', 'catalogNumber'='UCSB-IZC00005600']
+    .denotes female_organism:A_texanus1 ['rdfs:label'='Agapostemon_texanus'];
+    TU:UCSB-IZC00005600 .denotes Agapostemon_texanus;
   }
 
   OPHU_LIST={
@@ -59,6 +58,5 @@ OTU={ #Agapostemon texanus, UCSB-IZC00005600
     female_organism:A_texanus1 > mesosoma >> width .is_quality_measured_as measurement_datum:msrd2
     .has_measurement_unit_label millimeter;
     female_organism:A_texanus1 > measurement_datum:msrd2 .has_measurement_value 1.6;
-    #adult_organism:A_texanus;
   }
 }

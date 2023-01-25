@@ -4,13 +4,14 @@
 			<phs:otu_properties>
 				<phs:ophu_statement>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/UCSB-IZC00000646" phs:triple_pos="1" phs:node_name="TU" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/UCSB-IZC00000646" phs:triple_pos="1" phs:node_name="TU" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">
 							<phs:node_property phs:value="TU" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">node_name</phs:node_property>
 							<phs:node_property phs:value="has_phenotype" phs:iri="http://purl.obolibrary.org/obo/RO_0002200">to_Ophu_List</phs:node_property>
 							<phs:node_property phs:value="TU_Agapostemon texanus" phs:iri="NA">rdfs:label</phs:node_property>
+							<phs:node_property phs:value="UCSB-IZC00000646" phs:iri="NA">catalogNumber</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000219">denotes</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/A_texanus" phs:triple_pos="3" phs:node_name="male_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000027">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/A_texanus" phs:triple_pos="3" phs:node_name="male_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000027">
 							<phs:node_property phs:value="male_organism" phs:iri="http://purl.obolibrary.org/obo/HAO_0000027">node_name</phs:node_property>
 							<phs:node_property phs:value="ORG_Agapostemon_texanus" phs:iri="NA">rdfs:label</phs:node_property>
 						</phs:node>
@@ -18,12 +19,12 @@
 				</phs:ophu_statement>
 				<phs:ophu_statement>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/UCSB-IZC00000646" phs:triple_pos="1" phs:node_name="TU" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/UCSB-IZC00000646" phs:triple_pos="1" phs:node_name="TU" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">
 							<phs:node_property phs:value="TU" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000219">denotes</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_2_3" phs:triple_pos="3" phs:node_name="Agapostemon" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/NCBITaxon_88590">
-							<phs:node_property phs:value="Agapostemon" phs:iri="http://purl.obolibrary.org/obo/NCBITaxon_88590">node_name</phs:node_property>
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_2_3" phs:triple_pos="3" phs:node_name="Agapostemon_texanus" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/NCBITaxon_1889476">
+							<phs:node_property phs:value="Agapostemon_texanus" phs:iri="http://purl.obolibrary.org/obo/NCBITaxon_1889476">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 				</phs:ophu_statement>
@@ -31,54 +32,54 @@
 			<phs:ophu_list>
 				<phs:ophu_statement>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/A_texanus" phs:triple_pos="1" phs:node_name="male_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000027">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/A_texanus" phs:triple_pos="1" phs:node_name="male_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000027">
 							<phs:node_property phs:value="male_organism" phs:iri="http://purl.obolibrary.org/obo/HAO_0000027">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/BFO_0000051">has_part</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_3_3" phs:triple_pos="3" phs:node_name="mesosoma" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_3_3" phs:triple_pos="3" phs:node_name="mesosoma" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">
 							<phs:node_property phs:value="mesosoma" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_3_3" phs:triple_pos="1" phs:node_name="mesosoma" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_3_3" phs:triple_pos="1" phs:node_name="mesosoma" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">
 							<phs:node_property phs:value="mesosoma" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/RO_0000053">has_characteristic</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_3_5" phs:triple_pos="3" phs:node_name="width" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_3_5" phs:triple_pos="3" phs:node_name="width" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">
 							<phs:node_property phs:value="width" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_3_5" phs:triple_pos="1" phs:node_name="width" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_3_5" phs:triple_pos="1" phs:node_name="width" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">
 							<phs:node_property phs:value="width" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000417">is_quality_measured_as</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/msrd1" phs:triple_pos="3" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/msrd1" phs:triple_pos="3" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
 							<phs:node_property phs:value="measurement_datum" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/msrd1" phs:triple_pos="1" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/msrd1" phs:triple_pos="1" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
 							<phs:node_property phs:value="measurement_datum" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000039">has_measurement_unit_label</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_3_9" phs:triple_pos="3" phs:node_name="millimeter" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/UO_0000016">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_3_9" phs:triple_pos="3" phs:node_name="millimeter" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/UO_0000016">
 							<phs:node_property phs:value="millimeter" phs:iri="http://purl.obolibrary.org/obo/UO_0000016">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 				</phs:ophu_statement>
 				<phs:ophu_statement>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/A_texanus" phs:triple_pos="1" phs:node_name="male_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000027">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/A_texanus" phs:triple_pos="1" phs:node_name="male_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000027">
 							<phs:node_property phs:value="male_organism" phs:iri="http://purl.obolibrary.org/obo/HAO_0000027">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/BFO_0000051">has_part</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/msrd1" phs:triple_pos="3" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/msrd1" phs:triple_pos="3" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
 							<phs:node_property phs:value="measurement_datum" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/msrd1" phs:triple_pos="1" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/msrd1" phs:triple_pos="1" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
 							<phs:node_property phs:value="measurement_datum" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000004">has_measurement_value</phs:edge>
@@ -94,13 +95,14 @@
 			<phs:otu_properties>
 				<phs:ophu_statement>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/UCSB-IZC00005600" phs:triple_pos="1" phs:node_name="TU" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/UCSB-IZC00005600" phs:triple_pos="1" phs:node_name="TU" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">
 							<phs:node_property phs:value="TU" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">node_name</phs:node_property>
 							<phs:node_property phs:value="has_phenotype" phs:iri="http://purl.obolibrary.org/obo/RO_0002200">to_Ophu_List</phs:node_property>
 							<phs:node_property phs:value="Agapostemon texanus" phs:iri="NA">rdfs:label</phs:node_property>
+							<phs:node_property phs:value="UCSB-IZC00005600" phs:iri="NA">catalogNumber</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000219">denotes</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/A_texanus" phs:triple_pos="3" phs:node_name="female_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000028">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/A_texanus1" phs:triple_pos="3" phs:node_name="female_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000028">
 							<phs:node_property phs:value="female_organism" phs:iri="http://purl.obolibrary.org/obo/HAO_0000028">node_name</phs:node_property>
 							<phs:node_property phs:value="Agapostemon_texanus" phs:iri="http://purl.obolibrary.org/obo/NCBITaxon_1889476">rdfs:label</phs:node_property>
 						</phs:node>
@@ -108,12 +110,12 @@
 				</phs:ophu_statement>
 				<phs:ophu_statement>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/UCSB-IZC00005600" phs:triple_pos="1" phs:node_name="TU" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/UCSB-IZC00005600" phs:triple_pos="1" phs:node_name="TU" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">
 							<phs:node_property phs:value="TU" phs:iri="http://purl.obolibrary.org/obo/CDAO_0000138">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000219">denotes</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_6_3" phs:triple_pos="3" phs:node_name="Agapostemon" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/NCBITaxon_88590">
-							<phs:node_property phs:value="Agapostemon" phs:iri="http://purl.obolibrary.org/obo/NCBITaxon_88590">node_name</phs:node_property>
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_6_3" phs:triple_pos="3" phs:node_name="Agapostemon_texanus" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/NCBITaxon_1889476">
+							<phs:node_property phs:value="Agapostemon_texanus" phs:iri="http://purl.obolibrary.org/obo/NCBITaxon_1889476">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 				</phs:ophu_statement>
@@ -121,54 +123,54 @@
 			<phs:ophu_list>
 				<phs:ophu_statement>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/A_texanus1" phs:triple_pos="1" phs:node_name="female_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000028">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/A_texanus1" phs:triple_pos="1" phs:node_name="female_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000028">
 							<phs:node_property phs:value="female_organism" phs:iri="http://purl.obolibrary.org/obo/HAO_0000028">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/BFO_0000051">has_part</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_7_3" phs:triple_pos="3" phs:node_name="mesosoma" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_7_3" phs:triple_pos="3" phs:node_name="mesosoma" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">
 							<phs:node_property phs:value="mesosoma" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_7_3" phs:triple_pos="1" phs:node_name="mesosoma" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_7_3" phs:triple_pos="1" phs:node_name="mesosoma" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">
 							<phs:node_property phs:value="mesosoma" phs:iri="http://purl.obolibrary.org/obo/HAO_0000576">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/RO_0000053">has_characteristic</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_7_5" phs:triple_pos="3" phs:node_name="width" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_7_5" phs:triple_pos="3" phs:node_name="width" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">
 							<phs:node_property phs:value="width" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_7_5" phs:triple_pos="1" phs:node_name="width" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_7_5" phs:triple_pos="1" phs:node_name="width" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">
 							<phs:node_property phs:value="width" phs:iri="http://purl.obolibrary.org/obo/HAO_0002375">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000417">is_quality_measured_as</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/msrd2" phs:triple_pos="3" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/msrd2" phs:triple_pos="3" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
 							<phs:node_property phs:value="measurement_datum" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/msrd2" phs:triple_pos="1" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/msrd2" phs:triple_pos="1" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
 							<phs:node_property phs:value="measurement_datum" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000039">has_measurement_unit_label</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/_ophu_7_9" phs:triple_pos="3" phs:node_name="millimeter" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/UO_0000016">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/_ophu_7_9" phs:triple_pos="3" phs:node_name="millimeter" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/UO_0000016">
 							<phs:node_property phs:value="millimeter" phs:iri="http://purl.obolibrary.org/obo/UO_0000016">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 				</phs:ophu_statement>
 				<phs:ophu_statement>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/A_texanus1" phs:triple_pos="1" phs:node_name="female_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000028">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/A_texanus1" phs:triple_pos="1" phs:node_name="female_organism" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/HAO_0000028">
 							<phs:node_property phs:value="female_organism" phs:iri="http://purl.obolibrary.org/obo/HAO_0000028">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/BFO_0000051">has_part</phs:edge>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/msrd2" phs:triple_pos="3" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/msrd2" phs:triple_pos="3" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
 							<phs:node_property phs:value="measurement_datum" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">node_name</phs:node_property>
 						</phs:node>
 					</phs:triple_node>
 					<phs:triple_node>
-						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-14-26-56/msrd2" phs:triple_pos="1" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
+						<phs:node phs:node_id="https://orcid.org/0000-0001-5237-2330/25-01-2023-16-30-11/msrd2" phs:triple_pos="1" phs:node_name="measurement_datum" phs:fromNegativeEdge="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">
 							<phs:node_property phs:value="measurement_datum" phs:iri="http://purl.obolibrary.org/obo/IAO_0000109">node_name</phs:node_property>
 						</phs:node>
 						<phs:edge phs:triple_pos="2" phs:negative_prop="False" phs:iri="http://purl.obolibrary.org/obo/IAO_0000004">has_measurement_value</phs:edge>
