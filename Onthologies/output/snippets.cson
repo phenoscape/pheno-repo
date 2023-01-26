@@ -2055,8 +2055,8 @@ boundary_of: http://purl.obolibrary.org/obo/RO_0002000'
    'leftLabelHTML': '<span style="color:#64B5F6">P</span>'
 
   'RO_0001025':
-   'prefix': 'located_in[iri="RO_0001025"]'
-   'body': '.located_in[iri="RO_0001025"]'
+   'prefix': 'located_in'
+   'body': '.located_in'
    'description': 'a relation between two independent continuants, the target and the location, in which the target is entirely within the location'
    'leftLabelHTML': '<span style="color:#64B5F6">P</span>'
 
@@ -4666,12 +4666,6 @@ For example, protein A (transcription factor) indirectly decreases by repression
    'description': 'A shape quality inhering in a bearer by virtue of the bearer resembling a thin narrow strip.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0002402':
-   'prefix': 'sternaulus_length'
-   'body': 'sternaulus_length'
-   'description': 'The straight anatomical line between the anterior and posterior ends of the sternaulus.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0000179':
    'prefix': 'obsolete_body_position'
    'body': 'obsolete_body_position'
@@ -4688,6 +4682,12 @@ For example, protein A (transcription factor) indirectly decreases by repression
    'prefix': 'obsolete_quantity'
    'body': 'obsolete_quantity'
    'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0002402':
+   'prefix': 'sternaulus_length'
+   'body': 'sternaulus_length'
+   'description': 'The straight anatomical line between the anterior and posterior ends of the sternaulus.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0001321':
@@ -8044,6 +8044,12 @@ clustering algorithm.'
    'prefix': 'facial_sulcus'
    'body': 'facial_sulcus'
    'description': 'The sulcus that arises medially from the ventral margin of the median ocellus and extends towards the intertorular carina.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'EFO_0005020':
+   'prefix': 'latitude'
+   'body': 'latitude'
+   'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0001012':
@@ -12222,6 +12228,12 @@ clustering algorithm.'
    'description': 'The band that is transverse and composed of setae in Apoidea.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
+  'EFO_0005021':
+   'prefix': 'logitude'
+   'body': 'logitude'
+   'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
   'PATO_0045052':
    'prefix': 'normal_depth'
    'body': 'normal_depth'
@@ -12732,16 +12744,16 @@ clustering algorithm.'
    'description': 'A contractile quality inhering in a bearer by virtue of the bearer\'s elastic tension that facilitate response to stimuli.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0001293':
-   'prefix': 'pleurostomal_carina'
-   'body': 'pleurostomal_carina'
-   'description': 'The carina that delimits the pleurostoma from the cranium.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'IAO_8000000':
    'prefix': 'ontology_module'
    'body': 'ontology_module'
    'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0001293':
+   'prefix': 'pleurostomal_carina'
+   'body': 'pleurostomal_carina'
+   'description': 'The carina that delimits the pleurostoma from the cranium.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0000999':
@@ -13047,6 +13059,12 @@ clustering algorithm.'
   'PATO_0000193':
    'prefix': 'obsolete_mating'
    'body': 'obsolete_mating'
+   'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'AFR_0001071':
+   'prefix': 'locality'
+   'body': 'locality'
    'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
@@ -13542,16 +13560,16 @@ clustering algorithm.'
    'description': 'The thoracic segment that is located between the head and the mesothorax is composed of the pronotum, the propectus and the fore leg.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0001068':
-   'prefix': 'ventral_propleural_area'
-   'body': 'ventral_propleural_area'
-   'description': 'The area that is located ventrally on the propleuron and is delimited laterally by the longitudinal carina of the propleuron.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0002140':
    'prefix': 'inedible'
    'body': 'inedible'
    'description': 'A physical quality inhering in a bearer by virtue of the bearer not being suitable for use as food.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0001068':
+   'prefix': 'ventral_propleural_area'
+   'body': 'ventral_propleural_area'
+   'description': 'The area that is located ventrally on the propleuron and is delimited laterally by the longitudinal carina of the propleuron.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0000567':
@@ -14658,6 +14676,12 @@ clustering algorithm.'
    'description': 'The carina that extends along the lateral margin of the intertorular area (median margin of the antennal foramen) towards the vertex.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
+  'PATO_0000716':
+   'prefix': '[iri="PATO_0000716"]'
+   'body': '[iri="PATO_0000716"]'
+   'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
   'HAO_0002386':
    'prefix': 'distal_projection_of_the_parossiculus'
    'body': 'distal_projection_of_the_parossiculus'
@@ -14670,22 +14694,16 @@ clustering algorithm.'
    'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0000716':
-   'prefix': '[iri="PATO_0000716"]'
-   'body': '[iri="PATO_0000716"]'
-   'description': ''
+  'HAO_0000777':
+   'prefix': 'postgenal_bridge'
+   'body': 'postgenal_bridge'
+   'description': 'The subforaminal bridge that is sclerotised and limited anteriorly (ventrally) by the hypostomal carina and is subdivided medially by the median sulcus of the postgenal bridge.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0001401':
    'prefix': 'oligopotent'
    'body': 'oligopotent'
    'description': 'A cellular potency that is the capacity to form multiple differentiated cell types of a specific lineage and lack self renewing capacity.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
-  'HAO_0000777':
-   'prefix': 'postgenal_bridge'
-   'body': 'postgenal_bridge'
-   'description': 'The subforaminal bridge that is sclerotised and limited anteriorly (ventrally) by the hypostomal carina and is subdivided medially by the median sulcus of the postgenal bridge.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0002043':
@@ -17100,6 +17118,12 @@ clustering algorithm.'
    'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
+  'PATO_0002147':
+   'prefix': 'reduced_virulence'
+   'body': 'reduced_virulence'
+   'description': 'A virulence that is relatively low.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
   'PATO_0000903':
    'prefix': 'obsolete_cms-hl_type_value'
    'body': 'obsolete_cms-hl_type_value'
@@ -17110,12 +17134,6 @@ clustering algorithm.'
    'prefix': 'ligase_activity,_forming_carbon-nitrogen_bonds'
    'body': 'ligase_activity,_forming_carbon-nitrogen_bonds'
    'description': ''
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
-  'PATO_0002147':
-   'prefix': 'reduced_virulence'
-   'body': 'reduced_virulence'
-   'description': 'A virulence that is relatively low.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0002217':
@@ -21020,16 +21038,16 @@ two-dimensional map.'
    'description': 'A textual entity that contains a two-dimensional arrangement of texts repeated at regular intervals across a spatial range, such that the spatial relationships among the constituent texts expresses propositions'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0015024':
-   'prefix': 'increased_porosity'
-   'body': 'increased_porosity'
-   'description': 'An increase in porosity.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0000921':
    'prefix': 'second_axillary_sclerite'
    'body': 'second_axillary_sclerite'
    'description': 'The axillary sclerite that articulates ventrally with the pleuron and medially with the first axillary sclerite, posteriorly with the third axillary sclerite and is connected with the base of the radial vein.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0015024':
+   'prefix': 'increased_porosity'
+   'body': 'increased_porosity'
+   'description': 'An increase in porosity.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0001617':
@@ -21617,6 +21635,12 @@ two-dimensional map.'
   'GO_0004842':
    'prefix': 'ubiquitin-protein_ligase_activity'
    'body': 'ubiquitin-protein_ligase_activity'
+   'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'NCIT_C25341':
+   'prefix': 'location'
+   'body': 'location'
    'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
@@ -22298,28 +22322,28 @@ two-dimensional map.'
    'description': 'The ridge that extends between the pleurostomal fossa and pleurostomal condyle and delimits the lateral margin of the pleurostoma.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0002139':
-   'prefix': 'edible'
-   'body': 'edible'
-   'description': 'A physical quality inhering in a bearer by virtue of the bearer being suitable for use as food.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0001351':
    'prefix': 'mesotibia'
    'body': 'mesotibia'
    'description': 'The tibia that is located on the mid leg.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0000674':
-   'prefix': 'orbital_carina[iri="HAO_0000674"]'
-   'body': 'orbital_carina[iri="HAO_0000674"]'
-   'description': ''
+  'PATO_0002139':
+   'prefix': 'edible'
+   'body': 'edible'
+   'description': 'A physical quality inhering in a bearer by virtue of the bearer being suitable for use as food.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0001955':
    'prefix': 'metepimeron[iri="HAO_0001955"]'
    'body': 'metepimeron[iri="HAO_0001955"]'
    'description': 'The depression that is concave and is located at the anterior end of the metapleural sulcus.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0000674':
+   'prefix': 'orbital_carina[iri="HAO_0000674"]'
+   'body': 'orbital_carina[iri="HAO_0000674"]'
+   'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0000352':
@@ -22760,6 +22784,12 @@ two-dimensional map.'
    'description': 'A quality inhering in a bearer by virtue of the bearer\'s length being notably lower than its width.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
+  'HAO_0000483':
+   'prefix': 'lateral_pronotal_area'
+   'body': 'lateral_pronotal_area'
+   'description': 'The area of the pronotum that is lateral and delimited medially by the epomial carina.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
   'HAO_0002434':
    'prefix': 'alutaceous'
    'body': 'alutaceous'
@@ -22770,12 +22800,6 @@ two-dimensional map.'
    'prefix': 'area[iri="HAO_0000146"]'
    'body': 'area[iri="HAO_0000146"]'
    'description': 'The anatomical structure of the cuticle that is delimited by material or immaterial anatomical entities.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
-  'HAO_0000483':
-   'prefix': 'lateral_pronotal_area'
-   'body': 'lateral_pronotal_area'
-   'description': 'The area of the pronotum that is lateral and delimited medially by the epomial carina.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'IAO_0000140':
@@ -23722,8 +23746,8 @@ logical relations between a finite collection of sets.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0002261':
-   'prefix': 'located_in[iri="PATO_0002261"]'
-   'body': 'located_in[iri="PATO_0002261"]'
+   'prefix': 'located_in_class'
+   'body': 'located_in_class'
    'description': 'A spatial quality inhering in a bearer by virtue of the bearer\'s location within another entity.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
@@ -24009,16 +24033,16 @@ logical relations between a finite collection of sets.'
    'description': 'A luminous flux quality inhering in a bearer by virtue of the bearer\'s emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0002542':
-   'prefix': 'genuflexor_apodeme'
-   'body': 'genuflexor_apodeme'
-   'description': 'The cuticular invagination at the distal end of the genuflexor sclerite that is adjacent to (articulates with) the outerwall of the tibia.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0001299':
    'prefix': 'radiation_emitting_quality'
    'body': 'radiation_emitting_quality'
    'description': 'A scalar EM radiation quality which obtains by the capacity of the bearer to emit radiation.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0002542':
+   'prefix': 'genuflexor_apodeme'
+   'body': 'genuflexor_apodeme'
+   'description': 'The cuticular invagination at the distal end of the genuflexor sclerite that is adjacent to (articulates with) the outerwall of the tibia.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0040017':
@@ -24495,16 +24519,16 @@ logical relations between a finite collection of sets.'
    'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0002072':
-   'prefix': 'decreased_affinity'
-   'body': 'decreased_affinity'
-   'description': 'An affinity which is relatively low.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0001387':
    'prefix': 'disomy'
    'body': 'disomy'
    'description': 'An aneuploidy quality inhering in a bearer by virtue of the bearer\'s containing only two chromosome from a pair in a cell\'s nucleus.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0002072':
+   'prefix': 'decreased_affinity'
+   'body': 'decreased_affinity'
+   'description': 'An affinity which is relatively low.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0002376':
@@ -27677,16 +27701,16 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': 'The apodeme that is located anteromedially on the lateral metafurcal arm and corresponds to the site of origin of the lateral metafurco-mesofurcal muscle.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0000593':
-   'prefix': 'obsolete_absolute_volume_value'
-   'body': 'obsolete_absolute_volume_value'
-   'description': ''
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0000842':
    'prefix': 'pronotal_suprahumeral_sulcus'
    'body': 'pronotal_suprahumeral_sulcus'
    'description': 'The sulcus that extends along the dorsal margin of the pronotum and delimits the dorsal pronotal area.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0000593':
+   'prefix': 'obsolete_absolute_volume_value'
+   'body': 'obsolete_absolute_volume_value'
+   'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0000740':
@@ -27845,16 +27869,16 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': '.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0002423':
-   'prefix': 'papillomatous'
-   'body': 'papillomatous'
-   'description': 'A round or lobulated protruding form resembling a nipple.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0001738':
    'prefix': 'dissociated_from'
    'body': 'dissociated_from'
    'description': 'A structural quality inhering in a bearer by virtue of the bearer\'s lacking physically interaction with another entity.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0002423':
+   'prefix': 'papillomatous'
+   'body': 'papillomatous'
+   'description': 'A round or lobulated protruding form resembling a nipple.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0000135':
@@ -28793,16 +28817,16 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': 'A reproductive quality inhering in the young of an animal by virtue of the bearer\'s being cared for at one time.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'HAO_0001800':
-   'prefix': 'prespiracular_carina'
-   'body': 'prespiracular_carina'
-   'description': 'The carina that delimits the spiracular furrow medially.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0000497':
    'prefix': 'obsolete_relative_rhythym_value'
    'body': 'obsolete_relative_rhythym_value'
    'description': ''
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'HAO_0001800':
+   'prefix': 'prespiracular_carina'
+   'body': 'prespiracular_carina'
+   'description': 'The carina that delimits the spiracular furrow medially.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0000243':
@@ -29105,16 +29129,16 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': 'A temperature which is increased by a low degree.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0001637':
-   'prefix': 'necessity_of_occurrent'
-   'body': 'necessity_of_occurrent'
-   'description': 'A quality of single process inhering in a bearer by virtue of whether the bearer is essential or indispensable.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0001043':
    'prefix': 'unguitractor_plate'
    'body': 'unguitractor_plate'
    'description': 'The sclerite that corresponds to the site of insertion of the flexor of the pretarsus.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0001637':
+   'prefix': 'necessity_of_occurrent'
+   'body': 'necessity_of_occurrent'
+   'description': 'A quality of single process inhering in a bearer by virtue of whether the bearer is essential or indispensable.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0001472':
@@ -29465,16 +29489,16 @@ Example: The ISO document specifying what encompasses an XML document; The instr
    'description': 'The axillary region that is located on the fore wing base.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0000830':
-   'prefix': 'obsolete_relative_visual_ability_value'
-   'body': 'obsolete_relative_visual_ability_value'
-   'description': ''
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'RO_0002533':
    'prefix': 'sequence_atomic_unit'
    'body': 'sequence_atomic_unit'
    'description': 'Any individual unit of a collection of like units arranged in a linear order'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0000830':
+   'prefix': 'obsolete_relative_visual_ability_value'
+   'body': 'obsolete_relative_visual_ability_value'
+   'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'CL_0000540':
@@ -34232,12 +34256,6 @@ No imports'
    'description': 'A cellular quality inhering in a cell by virtue of its anisotropic intracellular organization.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'BFO_0000015':
-   'prefix': 'process[iri="BFO_0000015"]'
-   'body': 'process[iri="BFO_0000015"]'
-   'description': 'p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'PATO_0000827':
    'prefix': 'obsolete_visual_threshold_value'
    'body': 'obsolete_visual_threshold_value'
@@ -34248,6 +34266,12 @@ No imports'
    'prefix': 'axillary_muscle'
    'body': 'axillary_muscle'
    'description': 'The muscle that is attached to the axillary sclerite.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'BFO_0000015':
+   'prefix': 'process[iri="BFO_0000015"]'
+   'body': 'process[iri="BFO_0000015"]'
+   'description': 'p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0002478':
@@ -36347,6 +36371,12 @@ points together with a line.'
    'description': 'The area that is located posteriorly on the mesoscutum.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
+  'PATO_0001730':
+   'prefix': 'deciduous_(generic)'
+   'body': 'deciduous_(generic)'
+   'description': 'A quality inhering in a bearer by virtue of the bearer\'s disposition to shed body parts.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
   'OBI_0000471':
    'prefix': 'study_design_execution'
    'body': 'study_design_execution'
@@ -36363,12 +36393,6 @@ points together with a line.'
    'prefix': 'lot_number'
    'body': 'lot_number'
    'description': 'A lot number is an information content entity which is an identical sequence of character borne by part of manufactured product or its packaging for each instances of a product class in a discrete batch of an item. Lot numbers are usually assigned to each separate production run of an item. Manufacturing as a lot might be due to a variety of reasons, for example,  a single process during which many individuals are made from the same portion of source material. Lot numbers can be encoded in a pattern  of other information objects, such as bar codes, numerals, or patterns of dots.'
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
-  'PATO_0001730':
-   'prefix': 'deciduous_(generic)'
-   'body': 'deciduous_(generic)'
-   'description': 'A quality inhering in a bearer by virtue of the bearer\'s disposition to shed body parts.'
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'HAO_0002092':
@@ -38124,16 +38148,16 @@ distribution in terms of occurrence frequencies of different event classes.'
    'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
-  'PATO_0000400':
-   'prefix': 'obsolete_morphology_value'
-   'body': 'obsolete_morphology_value'
-   'description': ''
-   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
-
   'HAO_0000346':
    'prefix': 'foramen_genitale'
    'body': 'foramen_genitale'
    'description': 'The anatomical space that is surrounded by the proximal margin of the cupula.'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'PATO_0000400':
+   'prefix': 'obsolete_morphology_value'
+   'body': 'obsolete_morphology_value'
+   'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0001256':
@@ -38878,6 +38902,12 @@ distribution in terms of occurrence frequencies of different event classes.'
    'prefix': 'normal_velocity'
    'body': 'normal_velocity'
    'description': 'A velocity which is relatively normal or average'
+   'leftLabelHTML': '<span style="color:#FDD835">C</span>'
+
+  'NCBITaxon_599921':
+   'prefix': 'Chalepogenus'
+   'body': 'Chalepogenus'
+   'description': ''
    'leftLabelHTML': '<span style="color:#FDD835">C</span>'
 
   'PATO_0002134':

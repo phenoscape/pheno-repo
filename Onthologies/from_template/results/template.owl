@@ -39,6 +39,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AFR_0001071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AFR_0001071">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EFO_0005020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EFO_0005020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EFO_0005021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EFO_0005021">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logitude</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_166335 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_166335">
@@ -173,6 +197,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_599921 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_599921">
+        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_genus</ncbitaxon:has_rank>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chalepogenus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_88590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_88590">
@@ -196,6 +229,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_965490">
         <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_species</ncbitaxon:has_rank>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gryonoides brasiliensis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25341">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location</rdfs:label>
     </owl:Class>
     
 

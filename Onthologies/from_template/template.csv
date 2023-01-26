@@ -21,3 +21,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_27453,Xenomerus ergenna,class,,http://p
 http://purl.obolibrary.org/obo/NCBITaxon_374544,Bombus vagans,class,,
 http://purl.obolibrary.org/obo/UO_0000017,micrometer,class,,
 http://purl.obolibrary.org/obo/NCBITaxon_965490,Gryonoides brasiliensis,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_599921,Chalepogenus,class,,http://purl.obolibrary.org/obo/NCBITaxon_genus
+http://purl.obolibrary.org/obo/EFO_0005021,logitude,class,,
+http://purl.obolibrary.org/obo/EFO_0005020,latitude,class,,
+http://purl.obolibrary.org/obo/NCIT_C25341,location,class,,
+http://purl.obolibrary.org/obo/AFR_0001071,locality,,,
