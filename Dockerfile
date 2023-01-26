@@ -46,6 +46,13 @@ RUN wget -nv https://github.com/balhoff/materializer/releases/download/v$MAT_VER
 && tar -zxvf materializer-$MAT_VERSION.tgz \
 && mv materializer-$MAT_VERSION /tools/materializer
 
+###### blazegraph-runner #####
+ENV BG_VERSION=1.7
+ENV PATH "/tools/blazegraph-runner/bin:$PATH"
+RUN wget -nv https://github.com/balhoff/blazegraph-runner/releases/download/v$BG_VERSION/blazegraph-runner-$BG_VERSION.tgz \
+&& tar -zxvf blazegraph-runner-$BG_VERSION.tgz \
+&& mv blazegraph-runner-$BG_VERSION /tools/blazegraph-runner
+
 ###### jena #####
 ENV JENA_VERSION=4.7.0
 ENV PATH "/tools/apache-jena/bin:$PATH"
