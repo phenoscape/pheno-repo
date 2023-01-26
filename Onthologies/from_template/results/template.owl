@@ -138,6 +138,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_27453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27453">
+        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_species</ncbitaxon:has_rank>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xenomerus ergenna</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_27486 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27486">
@@ -147,10 +156,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_374544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_374544">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bombus vagans</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_506459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_506459">
-        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_species</ncbitaxon:has_rank>
+        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_genus</ncbitaxon:has_rank>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phanaeus haroldi</rdfs:label>
     </owl:Class>
     
@@ -174,10 +191,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_965490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_965490">
+        <ncbitaxon:has_rank rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/NCBITaxon_species</ncbitaxon:has_rank>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gryonoides brasiliensis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000016">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">millimeter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000017">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrometer</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

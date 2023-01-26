@@ -12,7 +12,12 @@ http://purl.obolibrary.org/obo/NCBITaxon_1955930,Chalepogenus subcaeruleus,class
 http://purl.obolibrary.org/obo/NCBITaxon_239131,Bombus vagans,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
 http://purl.obolibrary.org/obo/NCBITaxon_2736700,Chalepogenus rozeni,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
 http://purl.obolibrary.org/obo/NCBITaxon_27486,Evania appendigaster,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
-http://purl.obolibrary.org/obo/NCBITaxon_506459,Phanaeus haroldi,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_506459,Phanaeus haroldi,class,,http://purl.obolibrary.org/obo/NCBITaxon_genus
 http://purl.obolibrary.org/obo/NCBITaxon_931007,Scarabaeus radama,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
 http://purl.obolibrary.org/obo/NCBITaxon_88590,Agapostemon,class,,http://purl.obolibrary.org/obo/NCBITaxon_genus
 obo:UO_0000016,millimeter,class,,
+http://purl.obolibrary.org/obo/NCBITaxon_27486,Evania appendigaster,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_27453,Xenomerus ergenna,class,,http://purl.obolibrary.org/obo/NCBITaxon_species
+http://purl.obolibrary.org/obo/NCBITaxon_374544,Bombus vagans,class,,
+http://purl.obolibrary.org/obo/UO_0000017,micrometer,class,,
+http://purl.obolibrary.org/obo/NCBITaxon_965490,Gryonoides brasiliensis,class,,http://purl.obolibrary.org/obo/NCBITaxon_species

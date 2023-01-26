@@ -17,13 +17,13 @@
 
 OTU={ #Evania appendigaster
   OTU_DATA={
-    TU ['OPHU_LIST'='has_phenotype', 'rdfs:label'='Evania appendigaster']
+    TU ['to_Ophu_List'='has_phenotype', 'rdfs:label'='Evania appendigaster']
     .denotes male_organism:E_appendigaster ['rdfs:label'='Evania appendigaster'];
-    TU .denotes Evania;
+    TU .denotes Evania_appendigaster;
   }
 
   OPHU_LIST={
-    male_organism:E_appendigaster  > compound_eye >> blue
+    male_organism:E_appendigaster  > compound_eye >> blue;
   }
 }
 
@@ -33,11 +33,11 @@ OTU={ #Xenomerus_ergenna
   OTU_DATA={
     TU['to_Ophu_List'='has_phenotype', 'rdfs:label'='Xenomerus_ergenna']
     .denotes female_organism:X_ergenna ['rdfs:label'='Xenomerus_ergenna'];
-    TU .denotes Xenomerus;
+    TU .denotes Xenomerus_ergenna;
   }
 
   OPHU_LIST={
-    female_organism:X_ergenna > body >> length .is_quality_measured_as measurement_datum@bl_mexi .has_measurement_unit_label micrometer;
+    female_organism:X_ergenna > body >> length .is_quality_measured_as measurement_datum:bl_mexi .has_measurement_unit_label micrometer;
     female_organism:X_ergenna > measurement_datum:G_mexi .has_measurement_value 1100;
 
 
@@ -47,33 +47,31 @@ OTU={ #Xenomerus_ergenna
 OTU={ #Gryonoides_brasiliensis
 
   OTU_DATA={
-    TU['to_Ophu_List'='has_phenotype', 'rdfs:label'='Gryonoides_brasiliensis']
-    .denotes female_organism:G_brasiliensis ['rdfs:label'='Gryonoides_brasiliensis'];
-    TU .denotes Gryonoides;
+    TU:g43['to_Ophu_List'='has_phenotype', 'rdfs:label'='Gryonoides_brasiliensis']
+    .denotes female_organism:G_brasiliensis32['rdfs:label'='Gryonoides_brasiliensis'];
+    TU:g43 .denotes Gryonoides_brasiliensis;
   }
 
   OPHU_LIST={
-    female_organism:G_brasiliensis > body >> length .is_quality_measured_as measurement_datum:gbras .has_measurement_unit_label micrometer;
-    female_organism:G_brasiliensis > measurement_datum::gbras .has_measurement_value 2450;
+    #female_organism:G_brasiliensis32 > body >> length .is_quality_measured_as measurement_datum:gbras .has_measurement_unit_label micrometer;
+    female_organism:G_brasiliensis32 > measurement_datum:gbras .has_measurement_value 2450;
 
 
   }
 }
-
-
-OTU={ #Bombus_vagans
-
-  OTU_DATA={
-    TU['to_Ophu_List'='has_phenotype', 'rdfs:label'='Bombus_vagans']
-    .denotes female_organism:B_vagans ['rdfs:label'='Bombus_vagans'];
-    TU .denotes Bombus;
-  }
-
-  OPHU_LIST={
-    female_organism:B_vagans > pilosity[iri="HAO_0001990"] >> dense
-
-
-  }
-}
-  }
-}
+#
+#
+# OTU={ #Bombus_vagans
+#
+#   OTU_DATA={
+#     TU['to_Ophu_List'='has_phenotype', 'rdfs:label'='Bombus_vagans']
+#     .denotes female_organism:B_vagans ['rdfs:label'='Bombus_vagans'];
+#     TU .denotes Bombus_vagans;
+#   }
+#
+#   OPHU_LIST={
+#     female_organism:B_vagans > pilosity[iri="HAO_0001990"] >> dense
+#
+#
+#   }
+# }
